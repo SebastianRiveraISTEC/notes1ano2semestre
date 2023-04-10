@@ -1,0 +1,54 @@
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+\usepackage{algorithm}% http://ctan.org/pkg/algorithms
+\usepackage{algpseudocode}% http://ctan.org/pkg/algorithmicx
+
+
+\title{Mar-24-AED}
+\author{Sebastian Carcamo Rivera}
+\date{March 2023}
+
+\begin{document}
+
+\maketitle
+
+\section{Exercícios práticos aplicados}
+\begin{enumerate}
+    \item Elaborar um algoritmo que efetue a leitura de dois valores numéricos reais e apresente o resultado da soma dos quadrados dos valores lidos
+    \begin{algorithm}
+    \STATE $i\gets 10$
+\IF {$i\geq 5$} 
+  \STATE $i\gets i-1$
+\ELSE
+  \IF {$i\leq 3$}
+    \STATE $i\gets i+2$
+  \ENDIF
+\ENDIF 
+    \end{algorithm}
+    \\
+    \item Elaborar um algoritmo que efetue e apresente o calculo da area de um trapezio
+    \\
+    \item Desenvolver um algoritmo que faça a leitura em graus Fahrenheit e a apresente convertida em graus Celsius. A formula de conversão é: $C\leftarrow (F-32)*(5/9)$ sendo $F$ a temperatura em Fahrenheit e $C$ a temperatura em Celsius
+    \\
+    \item Calcular e apresentar o valor do volume de uma lata de óleo, utilizando a fórmula VOLUME $\leftarrow 3,14159 * R^2*ALTURA$
+    \\
+    \item Efetuar o cálculo da quantidade de litros de combustivel gasta numa viagem, utilizando um automovel que faz 12km por litro. Para obter o calculo, o utilizador deve fornecer o tempo gasto e a velocidad media durante a viagem. Desta fomra, sera possivel obter a distancia percorrida com a formula $DISTANCIA \leftarrow TEMPO * VELOCIDADE$. Tendo o valor da distancia, basta calcular a quantidade de litros de combustivel utilizada na viagem com a formula $LITROS_GASTOS \leftarrow DISTANCIA /12$. O programa deve apresentar os valores da velocidade media, tempo gasto na vaigem, a distancia percorrida e a quantidade de litros utilizada na viagem.
+    \\
+    \item Efetuar o calculo e a apresentação do valor de uma prestação em atraso, utilizando a formula $PRESTACAO \leftarrow VALOR + (VALOR*(TAXA/100))*TEMPO$
+    \\
+    \item Ler dois valores para as variaveis $A$ e $B$, e efetuar a troca dos valores de forma que a variavel $A$ passe a possuir o valor da variavel $B$ e a variavel $B$ passe a possuir o valor da variavel $A$. Apresentar os valores trocados
+    \\
+    \item Efetuar a leitura de um numero inteiro e apresentar o resultado do quadrado desse numero
+    \\
+    \item Ler dois valores inteiros (Variaveis $A$ e $B$) e imprimir o resultado do quadrado da diferença do primeiro valor pelo segundo
+    \\
+    \item Efetue a apresentação do valor da conversão em euros de um valor lido em dólares. O algoritmo deve solocitar o valor da cotação do dólar.
+    \\
+    \item Efetue a leitura de três valores ($A,B$ e $C$) e apresentar como resultado final a soma dos quadrados dos três valores lidos.
+    \\
+    \item Efetue a leitura de três valores ($A,B$ e $C$) e apresente como resultado final o quadrado da soma dos três valores lidos.
+    
+\end{enumerate}
+
+\end{document}
+\\
